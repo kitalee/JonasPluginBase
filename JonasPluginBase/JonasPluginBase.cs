@@ -19,6 +19,7 @@ namespace Jonas
                 var watch = Stopwatch.StartNew();
                 try
                 {
+                    // change
                     bag.TracingService.TraceContext(bag.PluginContext, false, true, true, bag.Service);
                     Execute(bag);
                 }
